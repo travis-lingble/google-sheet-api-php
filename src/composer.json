@@ -1,0 +1,17 @@
+{
+    "name": "lingble/google-sheet-api",
+    "description": "Mock for working with Google Sheet by PHP",
+    "autoload": {
+        "psr-4": {
+            "Lingble\\GoogleSheetApi\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Travis Nguyen"
+        }
+    ],
+    "require": {
+        "google/apiclient": "^2.15"
+    }
+}
