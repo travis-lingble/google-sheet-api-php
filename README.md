@@ -2,7 +2,14 @@
 
 How to use:
 ```php
-docker-compose exec app php fetch-all-row.php
+# Install composer dependencies
+docker-compose exec workspace composer install 
+
+# Fetch all rows of specific sheet
+docker-compose  exec -w /app/code workspace php fetch-all-row.php
+
+# Copy 1 tab to another tab on different sheet
+docker-compose  exec -w /app/code workspace php copy-tab.php
 ```
 Reference:
 - Docker (https://docs.docker.com/get-docker/)

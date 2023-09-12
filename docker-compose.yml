@@ -1,6 +1,6 @@
 version: '3'
 services:
-  app:
+  workspace:
     build: .
     volumes:
       - ./src:/app

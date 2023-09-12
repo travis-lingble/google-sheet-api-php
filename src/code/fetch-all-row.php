@@ -1,5 +1,5 @@
 <?php
-require __DIR__ . '/vendor/autoload.php';
+require __DIR__ . './../vendor/autoload.php';
 
 // configure the Google Client
 $client = new \Google_Client();

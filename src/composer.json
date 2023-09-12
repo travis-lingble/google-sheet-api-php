@@ -3,7 +3,7 @@
     "description": "Mock for working with Google Sheet by PHP",
     "autoload": {
         "psr-4": {
-            "Lingble\\GoogleSheetApi\\": "src/"
+            "Lingble\\GoogleSheetApi\\": "code/"
         }
     },
     "authors": [
