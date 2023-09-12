@@ -5,6 +5,9 @@ How to use:
 # Install composer dependencies
 docker-compose exec workspace composer install 
 
+# Create new spreadSheet
+docker-compose  exec -w /app/code workspace php create-new-spreadsheet.php
+
 # Fetch all rows of specific sheet
 docker-compose  exec -w /app/code workspace php fetch-all-row.php
 
