@@ -16,4 +16,5 @@ Reference:
 - Docker Compose (https://docs.docker.com/compose/install/)
 - Google Sheet API PHP Client (https://developers.google.com/sheets/api/quickstart/php)
 - Google Sheet ID (https://developers.google.com/sheets/api/guides/concepts#spreadsheet_id)
+- Google copyTo method (https://developers.google.com/sheets/api/reference/rest/v4/spreadsheets.sheets/copyTo)
 - Google Sheet Range (https://developers.google.com/sheets/api/guides/concepts#ranges)
