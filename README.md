@@ -2,7 +2,8 @@
 
 How to use:
 ```php
-docker-compose exec app php fetch-all-row.php
+docker-compose exec app composer install # Composer install dependencies
+docker-compose exec app php fetch-all-row.php # Fetch all row
 ```
 Reference:
 - Docker (https://docs.docker.com/get-docker/)
